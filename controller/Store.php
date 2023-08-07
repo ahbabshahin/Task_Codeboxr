@@ -28,4 +28,16 @@ class Store
                   return $msg;
             }
       }
+
+      public function index()
+      {
+            $query = "SELECT * from `task`";
+
+            $result = $this->db->select($query);
+
+            if (!$result) {
+                  echo "<h1>No data found</h1>";
+            }
+            return $result;
+      }
 }
