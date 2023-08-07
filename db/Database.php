@@ -26,4 +26,15 @@ class Database
                   return false;
             }
       }
+
+      public function insert($query)
+      {
+            $result = mysqli_query($this->link, $query) or die($this->link->error . __LINE__);
+
+            if (!$result) {
+                  return false;
+            }
+
+            return $result;
+      }
 }
