@@ -64,7 +64,8 @@ class Store
 
             $result = $this->db->insert($query);
             $msg = ($result) ? 'Update successful' : 'Update failed';
-            header($msg, "Location: index.php");
+            return $msg;
+            header("Location: index.php");
             // header("Location: index.php");
       }
 
