@@ -48,4 +48,17 @@ class Database
 
             return $result;
       }
+
+      public function delete($query)
+      {
+            // echo $query;
+            $result = mysqli_query($this->link, $query) or die($this->link->error . __LINE__);
+
+            // echo ($result);
+            if (!$result) {
+                  return false;
+            }
+
+            return $result;
+      }
 }
