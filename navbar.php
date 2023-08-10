@@ -8,11 +8,11 @@
                   <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
                         <li class="nav-item">
-                              <a class="nav-link active" aria-current="page" href="/task/index.php">Read</a>
+                              <a class="nav-link active" aria-current="page" href="/task_codeboxr/index.php">Read</a>
                         </li>
 
                         <li class="nav-item">
-                              <a class="nav-link" aria-current="page" href="/task/create.php">Create</a>
+                              <a class="nav-link" aria-current="page" href="/task_codeboxr/create.php">Create</a>
                         </li>
             </div>
       </div>
