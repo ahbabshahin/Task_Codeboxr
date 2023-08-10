@@ -57,7 +57,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                                           <div class="mb-3">
                                                 <label for="title" class="form-label">Title</label>
                                                 <input type="text" name="title" class="form-control" id="title" aria-describedby="emailHelp">
-                                                <!-- <?php echo htmlspecialchars($_POST['title']) ?? ' ' ?> <?php echo htmlspecialchars($_POST['content']) ?? ' ' ?> -->
                                                 <div>
                                                       <p class="text-danger"><?php echo $errors['title'] ?? '' ?></p>
                                                 </div>
